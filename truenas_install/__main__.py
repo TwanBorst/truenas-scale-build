@@ -426,7 +426,7 @@ def main():
                             if old_bootfs_prop != "-":
                                 run_command(["zfs", "set", "truenas:12=1", old_bootfs_prop])
 
-                        cp = run_command([f"{root}/usr/local/bin/truenas-initrd.py", root], check=False)
+                        cp = run_command([f"LD_LIBRARY_PATH={root}", f"{root}/usr/local/bin/truenas-initrd.py", root], check=False)
                         if cp.returncode > 1:
                             raise subprocess.CalledProcessError(
                                 cp.returncode, f'Failed to execute truenas-initrd: {cp.stderr}'
