@@ -181,7 +181,7 @@ apt_preferences:
   Pin-Priority: 1000
 - Package: "*nginx*"
   Pin: "release n=bullseye-security"
-  Pin-Priority: 1000
+  Pin-Priority: 980
 - Package: "*node*"
   Pin: "origin apt.tn.ixsystems.com/apt-direct/bluefin/nightlies/nodejs"
   Pin-Priority: 1000
