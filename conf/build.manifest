@@ -107,6 +107,7 @@ base-packages:
 - zfs-initramfs
 - nvme-cli
 - convmv
+- btrfs-progs
 
 #
 # Packages which are removed from the base TrueNAS SCALE System by default
