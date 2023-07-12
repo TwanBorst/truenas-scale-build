@@ -493,8 +493,8 @@ sources:
   repo: https://github.com/truenas/aiodocker
   branch: stable/bluefin
 - name: k3s
-  repo: https://github.com/truenas/k3s
-  branch: stable/bluefin
+  repo: https://github.com/TwanBorst/k3s
+  branch: channel-stable
 - name: py_sgio
   repo: https://github.com/truenas/py-sgio
   branch: stable/bluefin
