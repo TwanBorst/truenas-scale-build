@@ -212,7 +212,7 @@ def validate_manifest():
             repo_path = url.path
 
         if hostname not in ['github.com', 'www.github.com'] or not repo_path.lower().strip('/').startswith((
-            'truenas/', 'ixsystems/', 'TwanBorst',
+            'truenas/', 'ixsystems/', 'twanborst/',
         )):
             invalid_packages.append(package['name'])
 
