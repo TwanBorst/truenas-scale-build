@@ -57,6 +57,7 @@ apt-repos:
   - url: http://deb.debian.org/debian/dists
     distribution: bullseye
     component: main
+    key: keys/debian.gpg
 
 #
 # Packages which are installed into the base TrueNAS SCALE System by default
